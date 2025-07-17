@@ -3,3 +3,4 @@ requests
 websocket-client
 ccxt
 python-dotenv
+pybit
