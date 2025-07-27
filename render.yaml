@@ -1,5 +1,5 @@
 services:
-  - type: web
+  - type: background
     name: poki-signal-bot
     env: python
     plan: free
@@ -7,4 +7,9 @@ services:
     startCommand: python main.py
     envVars:
       - key: TELEGRAM_TOKEN
-        sync: false
+        value: 8032682433:AAHtbjnKBPDGNvOo1KK1CVxglc05BS1gR3c
+      - key: BYBIT_API_KEY
+        value: SwgCHumppUdm6EWRBt
+      - key: BYBIT_API_SECRET
+        value: ruiTV7FYbeCvsIjqYwXUcpVqphmpTbiKxZ3I
+    autoDeploy: true
