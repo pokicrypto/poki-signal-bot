@@ -3,4 +3,4 @@ requests
 websocket-client
 ccxt
 python-dotenv
-pybit
+pybit==4.3.11
